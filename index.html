@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warik | Warteg Arik</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Isi Form Pesanan Berikut</h1> <br>
+    <h2><u>Menu</u></h2>
+        <div class="menuMakanan">
+                <div class="tehTawar">
+                    <li>Teh Tawar</li>
+                    <ul>Rp 3000</ul>
+                    <img src="asset/tehTawar.jpg" alt="Teh Tawar" width="170px" height="200px">
+                </div>
+                <div class="tehManis">
+                    <li>Teh Manis</li>
+                    <ul>Rp 5000</ul>
+                    <img src="asset/tehManis.jpg" alt="Teh Manis" width="200px" height="200px">
+                </div>
+                <div class="nasi">
+                    <li>Nasi Putih</li>
+                    <ul>Rp 5000</ul>
+                    <img src="asset/nasiPutih.jpg" alt="Nasi Putih" width="250px" height="200px">
+                </div>
+                <div class="ayamGoreng">
+                    <li>Ayam Goreng</li>
+                    <ul>Rp 18000</ul>
+                    <img src="asset/ayamGoreng.jpg" alt="Ayam Goreng" width="250px" height="200px">
+                </div>
+                <div class="bebekGoreng">
+                    <li>Bebek Goreng</li>
+                    <ul>Rp 20000</ul>
+                    <img src="asset/bebekGoreng.jpeg" alt="Bebek Goreng" width="250px" height="200px">
+                </div>
+                <div class="ayamKomplit">
+                    <li>Ayam Goreng + Nasi</li>
+                    <ul>Rp 21000</ul>
+                    <img src="asset/ayamKomplit.webp" alt="Ayam Goreng Komplit" width="250px" height="200px">
+                </div>
+                <div class="bebekKomplit">
+                    <li>Bebek Goreng + Nasi</li>
+                    <ul>Rp 23000</ul>
+                    <img src="asset/bebekKomplit.jpeg" alt="Bebek Goreng Komplit" width="250px" height="200px">
+                </div>
+    </div>
+    <br>
+    <br>
+    <br>
+        <div class="form-pesenan">
+            <form action="pesen.html" id="formPesanan">
+                <div class="pesenan">
+                    <label for="NP"><strong>Nama Pemesan : </strong></label> <br>
+                    <input type="text" id="NP" name="NP" placeholder="Namamu.." required> <br> <br>
+                    <label for="NT"><strong>Nomor Telepon : </strong></label> <br>
+                    <input type="tel" id="NT" name="NT" placeholder="1234-5678-90" pattern="[0-9]{4}-[0-9]{4}-[0-9]{2}" required> <br> <br>
+                </div>
+                    <p><strong>Mau Pesan apa saja?</strong></p>
+                    <input type="checkbox" id="Teh Tawar" name="Menu" value="Teh Tawar">
+                    <label for="Teh Tawar">Teh Tawar</label><br>
+                    <input type="checkbox" id="Teh Manis" name="Menu" value="Teh Manis">
+                    <label for="Teh Manis">Teh Manis</label><br>
+                    <input type="checkbox" id="Nasi" name="Menu" value="Nasi">
+                    <label for="Nasi">Nasi Putih</label><br>
+                    <input type="checkbox" id="Ayam" name="Menu" value="Ayam Goreng">
+                    <label for="Ayam">Ayam Goreng</label><br>
+                    <input type="checkbox" id="Bebek" name="Menu" value="Bebek Goreng">
+                    <label for="Bebek">Bebek Goreng</label><br>
+                    <input type="checkbox" id="Ayam Komplit" name="Menu" value="Ayam Komplit">
+                    <label for="Ayam Komplit">Ayam Goreng + Nasi</label><br>
+                    <input type="checkbox" id="Bebek Komplit" name="Menu" value="Bebek Komplit">
+                    <label for="Bebek Komplit">Bebek Goreng + Nasi</label><br>
+                    <br>
+                    <input type="submit" value="Pesen">
+            </form>
+        </div>
+</body>
+</html>
